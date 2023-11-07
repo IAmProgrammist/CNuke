@@ -3,6 +3,7 @@
 #pragma once
 
 #include <stdbool.h>
+#include <stdint.h>
 
 // Максимальное количество элементов очереди на массиве.
 #define ArrayQueueBufferSize 100
