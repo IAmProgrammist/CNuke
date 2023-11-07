@@ -10,8 +10,8 @@
 #include <CNuke/list/SinglyLinkedList.h>
 #include <CNuke/list/DoubleLinkedStackList.h>
 
-#include <CNuke/containers/ArrayQueue.h>
-#include <CNuke/containers/LinkedQueue.h>
-#include <CNuke/containers/ArrayStack.h>
-#include <CNuke/containers/LinkedStack.h>
-#include <CNuke/containers/LinkedDeque.h>
+#include <CNuke/container/ArrayQueue.h>
+#include <CNuke/container/LinkedQueue.h>
+#include <CNuke/container/ArrayStack.h>
+#include <CNuke/container/LinkedStack.h>
+#include <CNuke/container/LinkedDeque.h>

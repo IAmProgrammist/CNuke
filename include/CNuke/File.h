@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include <CNuke/containers/ArrayQueue.h>
+#include <CNuke/container/ArrayQueue.h>
 
 // Операция выполнена успешно.
 #define FileOk 0

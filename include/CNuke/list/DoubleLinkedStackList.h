@@ -19,7 +19,7 @@
 extern int DoublyLinkedStackListError;
 
 #include <CNuke/Common.h>
-#include <CNuke/containers/LinkedStack.h>
+#include <CNuke/container/LinkedStack.h>
 
 typedef struct {
     LinkedStack Left;

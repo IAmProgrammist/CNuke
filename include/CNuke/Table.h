@@ -3,6 +3,7 @@
 #pragma once
 
 #include <stdbool.h>
+#include <stdint.h>
 
 // Максимальное количество элементов таблицы.
 #define TableBufferSize 100
