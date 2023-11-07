@@ -24,7 +24,6 @@ extern int DoublyLinkedStackListError;
 typedef struct {
     LinkedStack Left;
     LinkedStack Right;
-    BaseType Current;
 } DoublyLinkedStackList;
 
 // Инициализирует пустой двусвязный линейный список и возвращает его.
