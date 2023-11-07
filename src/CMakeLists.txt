@@ -6,6 +6,7 @@ container/ArrayQueue.c
 container/ArrayStack.c
 container/LinkedStack.c
 container/LinkedQueue.c
+container/LinkedDeque.c
 
 list/SinglyLinkedList.c
 list/SinglyLinkedArrayList.c
