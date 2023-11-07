@@ -49,7 +49,7 @@ void DoublyLinkedStackListMoveL(DoublyLinkedStackList *L) {
     if (DoublyLinkedStackListError != DoublyLinkedStackListOk) 
         return;
 
-    DoubleLinkedStackListPutAfter(L, element);
+    DoublyLinkedStackListPutAfter(L, element);
 }
 
 void DoublyLinkedStackListMoveR(DoublyLinkedStackList *L) {
@@ -58,7 +58,7 @@ void DoublyLinkedStackListMoveR(DoublyLinkedStackList *L) {
     if (DoublyLinkedStackListError != DoublyLinkedStackListOk) 
         return;
 
-    DoubleLinkedStackListPutBefore(L, element);
+    DoublyLinkedStackListPutBefore(L, element);
 }
 
 void DoublyLinkedStackListDone(DoublyLinkedStackList *L) {
