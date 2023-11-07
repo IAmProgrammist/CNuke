@@ -1,5 +1,7 @@
 #include <CNuke/Table.h>
 
+int TableError = TableOk;
+
 Table TableInit() {
     TableError = TableOk;
     return (Table) {{0}, 0};
