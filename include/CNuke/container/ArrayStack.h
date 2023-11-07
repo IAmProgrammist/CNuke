@@ -39,4 +39,4 @@ BaseType ArrayStackGet(ArrayStack *S);
 bool ArrayStackIsEmpty(ArrayStack S);
 
 // Возвращает true, если стек S заполнен, иначе - false.
-bool ArrayStackIsFull(ArrayStack *S);
+bool ArrayStackIsFull(ArrayStack S);
