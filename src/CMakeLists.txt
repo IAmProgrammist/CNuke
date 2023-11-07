@@ -4,6 +4,7 @@ File.c
 
 container/ArrayQueue.c
 container/ArrayStack.c
+container/LinkedStack.c
 
 list/SinglyLinkedList.c
 )
