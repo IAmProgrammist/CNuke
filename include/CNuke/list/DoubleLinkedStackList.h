@@ -25,6 +25,7 @@ typedef struct {
     LinkedStack Left;
     LinkedStack Right;
     BaseType Current;
+    size_t Size;
 } DoublyLinkedStackList;
 
 // Инициализирует пустой двусвязный линейный список и возвращает его.

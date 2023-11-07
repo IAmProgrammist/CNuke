@@ -9,6 +9,7 @@ container/LinkedQueue.c
 
 list/SinglyLinkedList.c
 list/SinglyLinkedArrayList.c
+list/DoubleLinkedStackList.c
 )
 
 add_library(CNuke STATIC ${CNukeSources})
