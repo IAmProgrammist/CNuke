@@ -41,10 +41,10 @@ Table TableInit();
 void TablePut(Table *T, TableElement E);
 
 // Если в таблице T есть элемент с ключом E.Key, возвращает его и удаляет из таблицы
-TableElement TableGet(Table T, int key);
+TableElement TableGet(Table *T, int key);
 
 // Возвращает true, если очередь T пуста, иначе - false.
-bool TableIsEmpty(Table Q);
+bool TableIsEmpty(Table T);
 
 // Возвращает true, если очередь T заполнена, иначе - false.
-bool TableIsFull(Table Q);
+bool TableIsFull(Table T);
