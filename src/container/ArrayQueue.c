@@ -1,5 +1,7 @@
 #include <CNuke/container/ArrayQueue.h>
 
+int ArrayQueueError = ArrayQueueOk;
+
 ArrayQueue ArrayQueueInit() {
     ArrayQueueError = ArrayQueueOk;
     return (ArrayQueue) {{0}, 0, 0, 0};
