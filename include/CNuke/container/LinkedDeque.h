@@ -5,11 +5,11 @@
 #include <CNuke/list/DoublyLinkedList.h>
 
 // Операция выполнена успешно.
-#define DequeOk DoublyLinkedListOk
+#define LinkedDequeOk DoublyLinkedListOk
 // Не удалось выделить память для нового элемента.
-#define DequeNotMem DoublyLinkedListNotMem
+#define LinkedDequeNotMem DoublyLinkedListNotMem
 // Дек пуст
-#define DequeEmpty DoublyLinkedListEmpty
+#define LinkedDequeEmpty DoublyLinkedListEmpty
 
 // Код ошибки, обновляется каждый раз после выполнения операции над очередью.
 extern int LinkedDequeError;
