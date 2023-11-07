@@ -12,7 +12,7 @@
 // Лист пуст.
 #define SinglyLinkedArrayListEmpty 1
 // Память для нового элемента выделить не удалось.
-#define SinglyLinkedArrayListNotMem 2
+#define SinglyLinkedArrayListFull 2
 // Рабочий указатель стоит на последнем элементе списка.
 #define SinglyLinkedArrayListEnd 3
 
@@ -24,9 +24,15 @@ extern int SinglyLinkedArrayListError;
 typedef size_t SinglyLinkedArrayListElementPtr;
 
 typedef struct {
-    BaseType Buf[SinglyLinkedArrayListBufferSize];
-    SinglyLinkedArrayListElementPtr ElementsOrder[SinglyLinkedArrayListBufferSize];
+    BaseType Value;
+    SinglyLinkedArrayListElementPtr Next;
+} SinglyLinkedArrayListElement;
+
+typedef struct {
+    SinglyLinkedArrayListElement Buf[SinglyLinkedArrayListBufferSize];
+    bool Taken[SinglyLinkedArrayListBufferSize];
     SinglyLinkedArrayListElementPtr Begin;
+    SinglyLinkedArrayListElementPtr Ptr;
 } SinglyLinkedArrayList;
 
 // Инициализирует пустой односвязный линейный список и возвращает его.
