@@ -8,6 +8,7 @@
 #include <CNuke/list/DoublyLinkedList.h>
 #include <CNuke/list/SinglyLinkedArrayList.h>
 #include <CNuke/list/SinglyLinkedList.h>
+#include <CNuke/list/SinglyLinkedListCycled.h>
 #include <CNuke/list/DoubleLinkedStackList.h>
 
 #include <CNuke/container/ArrayQueue.h>

@@ -38,7 +38,7 @@ BaseType SinglyLinkedArrayListGet(SinglyLinkedArrayList *L) {
 
     SinglyLinkedArrayListElementPtr readElement = L->Buf[L->Ptr].Next;
 
-    BaseType result = L->Buf[readElement];
+    BaseType result = L->Buf[readElement].Value;
     L->Buf[L->Ptr].Next = L->Buf[readElement].Next;
 
     L->Taken[readElement] = false;
