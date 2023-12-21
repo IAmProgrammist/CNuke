@@ -75,8 +75,9 @@ void SinglyLinkedListCycledDone(SinglyLinkedListCycled *L) {
     SinglyLinkedListCycledBeginPtr(L);
 
     do  {
+        SinglyLinkedListCycledElementPtr next = L->Ptr->Next;
         free(L->Ptr);
-        L->Ptr = L->Ptr->Next;
+        L->Ptr = next;
     } while (L->Ptr != L->Begin);
 
     *L = (SinglyLinkedListCycled){NULL, NULL};
